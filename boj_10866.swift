@@ -42,7 +42,7 @@ struct Deque<T> {
         return dequeueStack.popLast()
     }
 
-    mutating func dequeueFront() -> T? {
+    mutating func dequeueBack() -> T? {
         var value: T?
         if enqueueStack.isEmpty {
             dequeueStack.reverse()
@@ -68,7 +68,7 @@ for _ in 1...Int(readLine()!)! {
     if c[0]=="push_front" { deque.enqueueFront(Int(c[1])!) }
     if c[0]=="push_back" { deque.enqueue(Int(c[1])!) }
     if c[0]=="pop_front" { print(deque.isEmpty ? -1 : deque.dequeue()!) }
-    if c[0]=="pop_back" { print(deque.isEmpty ? -1 : deque.dequeueFront()!) }
+    if c[0]=="pop_back" { print(deque.isEmpty ? -1 : deque.dequeueBack()!) }
     if c[0]=="size" { print(deque.count) }
     if c[0]=="empty" { print(deque.isEmpty ? 1 : 0) }
     if c[0]=="front" { print(deque.isEmpty ? -1 : deque.front!) }
