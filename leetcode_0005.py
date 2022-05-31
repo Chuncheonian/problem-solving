@@ -1,5 +1,5 @@
 # 2021.03.22
-# Dongyoung Kwon (ehddud2468@gmail.com)
+# Dongyoung Kwon @Chuncheonian (chuncheonian@gmail.com)
 # https://leetcode.com/problems/longest-palindromic-substring/
 
 def longestPalindrome(s: str) -> str:   
@@ -16,4 +16,5 @@ def longestPalindrome(s: str) -> str:
             left, length = right-length-1, length+2
     return s[left : left+length]
 
-# print(longestPalindrome('babad'))
+# Testcase
+print(longestPalindrome('babad'))
