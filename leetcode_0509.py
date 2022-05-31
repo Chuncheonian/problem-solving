@@ -1,5 +1,5 @@
 # 2021.04.09
-# Dongyoung Kwon (ehddud2468@gmail.com)
+# Dongyoung Kwon @Chuncheonian (chuncheonian@gmail.com)
 # https://leetcode.com/problems/fibonacci-number/
 
 def fib(n: int) -> int:
@@ -10,4 +10,5 @@ def fib(n: int) -> int:
     
     return x
 
-# print(fib(5))
+# Testcase
+print(fib(5))
