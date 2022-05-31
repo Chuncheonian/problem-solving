@@ -1,5 +1,5 @@
 # 2021.03.23
-# Dongyoung Kwon (ehddud2468@gmail.com)
+# Dongyoung Kwon @Chuncheonian (chuncheonian@gmail.com)
 # https://leetcode.com/problems/reorder-data-in-log-files/
 
 def reorderLogFiles(logs: list[str]) -> list[str]:
@@ -15,4 +15,6 @@ def reorderLogFiles(logs: list[str]) -> list[str]:
 
     return letters + digits
 
-# print(reorderLogFiles(["dif1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"]))
+
+# Testcase
+print(reorderLogFiles(["dif1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"]))
