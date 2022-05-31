@@ -1,5 +1,5 @@
 # 2021.03.18
-# Dongyoung Kwon (ehddud2468@gmail.com)
+# Dongyoung Kwon @Chuncheonian (chuncheonian@gmail.com)
 # https://leetcode.com/problems/valid-palindrome/
 
 def isPalindrome(s: str) -> bool:
@@ -11,4 +11,5 @@ def isPalindrome(s: str) -> bool:
   
     return strs == strs[::-1] # 팰린드롬 여부 판별
 
+# Testcase
 print(isPalindrome("A man a plan, a canal: Panama"))
