@@ -1,5 +1,5 @@
 # 2021.03.19
-# Dongyoung Kwon (ehddud2468@gmail.com)
+# Dongyoung Kwon @Chuncheonian (chuncheonian@gmail.com)
 # https://leetcode.com/problems/reverse-string/
 
 def reverseString(s: list[str]) -> None:
