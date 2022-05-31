@@ -1,6 +1,7 @@
 # 2021.03.19
-# Dongyoung Kwon (ehddud2468@gmail.com)
+# Dongyoung Kwon @Chuncheonian (chuncheonian@gmail.com)
 # https://leetcode.com/problems/most-common-word/
+
 import re
 import collections
 
@@ -12,4 +13,6 @@ def mostCommonWord(paragraph: str, banned: list[str]) -> str:
 
     return counts.most_common(1)[0][0] # 가장 자주 등장하는 단어 리턴
 
+
+# Testcase
 print(mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", ["hit"]))
